@@ -24,3 +24,12 @@ int main(void) {
   }
 }
 
+float wallis_pi(int a)
+{
+    
+   float pi;
+   for(int i=1;i<=a;i++)
+   { pi=(float)4*(pow(i,2))/4*(pow(i,2))-1;
+   }
+  printf ("%d",pi);
+}
