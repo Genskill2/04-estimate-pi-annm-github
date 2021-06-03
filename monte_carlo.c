@@ -51,13 +51,9 @@ for(int i=1; i<=n; i++)
         c++;
         
     }
-    else 
-    {
-        s++;
-        
-    }
-} 
-s= (float)s + c;
+        s++;      
+    
+}
 
 float pi =4*(float)c/s;
 
