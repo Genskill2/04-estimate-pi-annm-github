@@ -27,9 +27,15 @@ int main(void) {
 float wallis_pi(int a)
 {
     
-   float pi;
+   float o=1.00;
    for(int i=1;i<=a;i++)
-   { pi=(float)4*(pow(i,2))/4*(pow(i,2))-1;
+    {  
+    float sq=i*i;
+    float a=4*sq;
+    float b=a-1;
+   o*=(float)a/b;
+  
    }
-  printf ("%d",pi);
+ 
+  return 2*o;
 }
